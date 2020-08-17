@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/img/pexels-arun-thomas-1156684.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+.container .bars{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+right: 42px;
+    cursor: pointer;
+    z-index: 1;
+    top: 24px;
+
+}
+.container1{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(0,0, 0, .7);
+    transition: 1s ease-in-out;
+    display: none;
+
+}
+.inner{
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.inner a{
+    text-decoration: none;
+    font-size: 4rem;
+    color: white;
+    display: block;
+    font-family: cursive;
+    font-weight: bolder;
+    padding-left: 16px;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+
+}
+.container1 .cross{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        left: 42px;
+        cursor: pointer;
+        z-index: 1;
+        top: 24px;
+        margin-left: auto;
+
+}
+#welli{
+    font-size: 2rem;
+    color: white;
+    font-family: cursive;
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+#close{
+    font-size: 2rem;
+    color: white;
+    font-family: cursive;
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+    
+    
+    
